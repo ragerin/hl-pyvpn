@@ -8,7 +8,7 @@ Revised Python version of the commandline OpenVPN solution for Hacking-Lab.com, 
 
 
 ## Usage:
-$ python hl-pyvpn.py [`-h`] [`--hostname HOSTNAME`] [`--port PORT`] [`--certificate` CERTIFICATE] [`--logdir` LOGDIR] [`--logvpn`]
+`$ python hl-pyvpn.py [`-h`] [`--hostname HOSTNAME`] [`--port PORT`] [`--certificate` CERTIFICATE] [`--logdir` LOGDIR] [`--logvpn`]`
 
 ### Arguments:
   `-h`, `--help`            show this help message and exit
