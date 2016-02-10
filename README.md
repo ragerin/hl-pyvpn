@@ -11,14 +11,14 @@ Revised Python version of the commandline OpenVPN solution for Hacking-Lab.com, 
 `$ python hl-pyvpn.py [-h] [--hostname HOSTNAME] [--port PORT] [--certificate CERTIFICATE] [--logdir LOGDIR] [--logvpn]`
 
 ### Arguments:
-  `-h`, `--help`            show this help message and exit
-  `--hostname` HOSTNAME   sets the host address (default: 212.254.246.102)
-  `--port` PORT           sets the port of the host (default: 443)
-  `--certificate` CERTIFICATE
-                        path to the certificate file (default: hlca.crt)
-  `--logdir` LOGDIR       dir to place log files (default: /var/log/hl_pyvpn/)
-  `--logvpn`              if specified, all openvpn output is logged in
-                        log_hl_openvpn.log (default: False)
+| FLAG               | ARG          | DESCRIPTION                                           |
+| ------------------ |:------------:| ----------------------------------------------------- |
+| `-h`, `--help`     | N/A          | show this help message and exit                       |
+| `--hostname`       | `HOSTNAME`   | sets the host address (default: 212.254.246.102)      |
+| `--port`           | `PORT`       | sets the port of the host (default: 443)              |
+| `--certificate`    | `CERTIFICATE`| path to the certificate file (default: hlca.crt)      |
+| `--logdir`         | `LOGDIR`     | dir to place log files (default: /var/log/hl_pyvpn/)  |
+| `--logvpn`         | N/A          | if specified, all openvpn output is logged in log_hl_openvpn.log (default: False)|
 
 
 * There is usually no need to touch `--hostname` or `--port` unless Hacking-Lab changes it.
