@@ -1,10 +1,31 @@
 # hl-pyvpn
 Revised Python version of the commandline OpenVPN solution for Hacking-Lab.com, originally created by Zy0d0x
 
+## Quickstart:
+```bash
+$ [sudo] apt-get install git python python-pip openvpn -y
+$ [sudo] pip install pexpect
+$ git clone https://github.com/ragerin/hl-pyvpn ~/hl-pyvpn/
+$ curl -o ~/hl-pyvpn/hlca.crt http://media.hacking-lab.com/largefiles/livecd/openvpn-config/general/hlca.crt
+```
+_**NOTE:**_ The `SyntaxError` when using pip(2.7) to install `pexpect` **doesn't matter**. [[see pexpect issue #220]][1]
+
+[1]: https://github.com/pexpect/pexpect/issues/220
+
+Start it with:
+```bash
+$ [sudo] python ~/hl-pyvpn/hl-pyvpn.py
+```
+
+
 ## Requirements:
-* python (at least 2.7, but 3.5+ also works)
-* openvpn
+* `python2.7` or `python3`
+* `pip` or `pip3`
+* `openvpn`
+* `pexpect-4.0.1`
 * the Hacking-Lab certificate (it can be downloaded from http://media.hacking-lab.com/largefiles/livecd/z_openvpn_config/backtrack/)
+
+
 
 
 ## Usage:
