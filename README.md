@@ -17,6 +17,10 @@ Start it with:
 $ [sudo] python ~/hl-pyvpn/hl-pyvpn.py
 ```
 
+### It doesn't work!
+Please, send me an email at `ragerin+pyvpn@hgaard.net` with a description of the error or unhandled exception, etc.
+Alternatively just submit a pull request with a fix :) Cheers!
+
 
 ## Requirements:
 * `python2.7` or `python3`
