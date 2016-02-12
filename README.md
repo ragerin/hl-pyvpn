@@ -27,7 +27,7 @@ Alternatively just submit a pull request with a fix :) Cheers!
 * `pip` or `pip3`
 * `openvpn`
 * `pexpect-4.0.1`
-* the Hacking-Lab certificate (it can be downloaded from http://media.hacking-lab.com/largefiles/livecd/z_openvpn_config/backtrack/)
+* the Hacking-Lab certificate (it can be downloaded from http://media.hacking-lab.com/largefiles/livecd/openvpn-config/general)
 
 
 
