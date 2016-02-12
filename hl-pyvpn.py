@@ -6,7 +6,6 @@
 #                                           #
 # Authors:                                  #
 #                                           #
-# Improved by                               #
 # Ragerin - https://github.com/ragerin      #
 #                                           #
 # Original code                             #
@@ -14,10 +13,8 @@
 #############################################
 
 
-banner = """Running
+banner = """
 Hacking-Lab Python commandline VPN Client
-by Ragerin
-original code by Zy0d0x
 """
 
 hostname = '212.254.246.102'
