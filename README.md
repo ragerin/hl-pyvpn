@@ -18,7 +18,7 @@ $ [sudo] python ~/hl-pyvpn/hl-pyvpn.py
 ```
 
 ### It doesn't work!
-Please, send me an email at `ragerin+pyvpn@hgaard.net` with a description of the error or unhandled exception, etc.
+Please, send me an email at `ragerin+pyvpn@gmail.com` with a description of the error or unhandled exception, etc.
 Alternatively just submit a pull request with a fix :) Cheers!
 
 
