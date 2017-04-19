@@ -150,7 +150,7 @@ try:
       sys.exit(1)
    else:
         print(banner)
-        username = raw_input('\nEmail address: ')
+        username = input('\nEmail address: ')
         if username == '':
            print('\n\n[-] Missing username')
         else:
@@ -160,7 +160,7 @@ try:
              else:
                   log('**** Script started *****')
                   backup_file('/tmp/config.ovpn')
-	          write_config('/tmp/config.ovpn')
+                  write_config('/tmp/config.ovpn')
                   
                   backup_file('/etc/resolv.conf')
                   write_resolvconf('/etc/resolv.conf')
