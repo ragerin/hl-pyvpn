@@ -6,7 +6,7 @@ Revised Python version of the commandline OpenVPN solution for Hacking-Lab.com, 
 $ [sudo] apt-get install git python python-pip openvpn -y
 $ [sudo] pip install pexpect
 $ git clone https://github.com/ragerin/hl-pyvpn ~/hl-pyvpn/
-$ curl -o ~/hl-pyvpn/hlca.crt http://media.hacking-lab.com/largefiles/livecd/openvpn-config/general/hlca.crt
+$ curl -L -o ~/hl-pyvpn/hlca.crt https://media.hacking-lab.com/largefiles/livecd/openvpn-config/general/hlca.crt
 ```
 _**NOTE:**_ The `SyntaxError` when using pip(2.7) to install `pexpect` **doesn't matter**. [[see pexpect issue #220]][1]
 
